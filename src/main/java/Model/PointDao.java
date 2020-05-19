@@ -4,10 +4,10 @@ import Entities.Point;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
-import javax.persistence.*;
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
-import java.math.BigDecimal;
 import java.util.List;
 
 @Named
